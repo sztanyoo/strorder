@@ -12,7 +12,7 @@ int main()
 
   string line;
   ifstream infile;
-  infile.open( "input.txt" );
+  infile.open( "/tmp/ramdisk/input.txt" );
 
   while( !infile.eof() )
   {
